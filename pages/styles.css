@@ -1,0 +1,27 @@
+
+/* Add your CSS styles here */
+
+/* Container for the entire page */
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+/* Dynamic background */
+.dynamic-bg {
+    animation: dynamicBackground 10s infinite alternate;
+}
+
+@keyframes dynamicBackground {
+    0% { background-color: #f1f1f1; }
+    50% { background-color: #ccc; }
+    100% { background-color: #f1f1f1; }
+}
+
+/* Movable text */
+.movable-text {
+    cursor: move;
+}
+
